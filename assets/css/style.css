@@ -159,6 +159,7 @@ ul{margin:0;padding:0;}
 }
 .hero-art img{
   width:min(360px,100%);
+  border-radius:50%;
   filter:drop-shadow(0 30px 60px rgba(255,122,24,.25));
   animation:float 5s ease-in-out infinite;
 }
