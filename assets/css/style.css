@@ -206,6 +206,10 @@ ul{margin:0;padding:0;}
 
 /* ===== Product catalog ===== */
 .product-card{display:flex;flex-direction:column;}
+.product-card .thumb{
+  width:100%;height:170px;object-fit:cover;
+  border-radius:var(--radius);background:var(--gray-bg);margin-bottom:18px;
+}
 .product-card .category{
   display:inline-block;align-self:flex-start;margin-bottom:14px;
   font-size:.74rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
